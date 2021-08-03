@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="card-content">
+        <div class="card-body" style = "color: aqua;">
+            <ng-content select="[cardTitle]"></ng-content>
+        </div>
+        <div class="mdl-card__supporting-text" style = "color: rebeccapurple;">
+            <ng-content select="[cardBody]"></ng-content>
+        </div>
+        <div class="mdl-card__supporting-text" style = "color: yellowgreen;">
+            <ng-content select="[cardFoother]"></ng-content>
+        </div>
+    </div>
+</div>
